@@ -1,7 +1,7 @@
 {
   "name": "medmij.fhir.nl.stu3.portability",
-  "version": "1.0.0-alpha.6",
-  "description": "Package of FHIR STU3 conformance resources for MedMij Portability version 1.0.0-alpha.6.",
+  "version": "1.0.0-alpha",
+  "description": "Package of FHIR STU3 conformance resources for MedMij Portability version 1.0.0-alpha",
   "author": "MedMij",
   "license": "CC0-1.0",
   "title": "FHIR implementation of Portability",
