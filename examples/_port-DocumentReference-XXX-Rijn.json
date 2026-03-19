@@ -1,0 +1,37 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "port-DocumentReference-XXX-Rijn",
+  "meta": {
+    "lastUpdated": "2026-01-07T00:00:00+00:00",
+    "profile": [
+      "http://nictiz.nl/fhir/StructureDefinition/IHE.MHD.Minimal.DocumentReference"
+    ]
+  },
+  "status": "current",
+  "indexed": "2026-01-07T12:00:00+02:00",
+  "masterIdentifier": {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:uuid:3f9c1d6e-8a4b-4e2a-9c3d-2f1b7e8c9d12"
+  },
+  "type": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "371535009",
+        "display": "verslag van overdracht"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/medmij-bgz-test-patA"
+  },
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "url": "Binary/port-Binary-XXX-Rijn",
+        "title": "Persoonlijk gezondheidsdossier voor Van XXX_Rijn"
+      }
+    }
+  ]
+}

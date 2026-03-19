@@ -7,11 +7,13 @@ This repository is maintained by MedMij.
 
 ### Examples
 
-The [simulator test data](examples/testdata-simulator) is based on [BgZ 3.0](https://github.com/Nictiz/Nictiz-testscripts/tree/main/output/STU3/BgZ-3-0) and the matching test scenarios.
+In 1.0.0-alpha.8 a redesign was put in place, removing vocabulary and structure definitions from this repository. These may well return in later stage, for now we're basing functionalitity on the use of examples in gegevensdienst Verzamelen Documenten 3.0 (PDF/A).
 
-The following resources are used as test material for [use case 1](https://changemanagement.medmij.nl/pgo-koppelvlak-publicatie/Working-version/bijlage-testscripts-2025-pgok-v0-5-4#Bijlagetestscripts(2025-PGOK-v0.5.4)-Usecase1.OverstapservicePGO-leverancier):
+Examples given are part of the Interoplab test suite in a proof of concept with participants. The [simulator test data](examples/testdata-simulator) is based on [BgZ 3.0](https://github.com/Nictiz/Nictiz-testscripts/tree/main/output/STU3/BgZ-3-0) and the matching test scenarios.
 
-- Resource [port-DocumentReference-XXX_Rijn-1-1.json](examples/port-DocumentReference-XXX_Rijn-1-1.json) represents a MedMij portability report, which is conveyed via a Binary resource, namely [port-Binary-XXX_Rijn-1-1.json](examples/port-Binary-XXX_Rijn-1-1.json).
-- Resource [port-DocumentReference-XXX_Rijn-1-2.json](examples/port-DocumentReference-XXX_Rijn-1-2.json) represents an export of health care records in PDF/A format, which is referenced by its url. The url should match an existing or generated resource.
+The following resources are used as test material for [use case 1](https://changemanagement.medmij.nl/ontwerp-pgo-koppelvlak/actueel/bijlage-testscripts-2025-pgok):
 
-Note that the two DocumentReference resources (and the referenced Binary resource) are used in both use case [1.1](https://changemanagement.medmij.nl/pgo-koppelvlak-publicatie/Working-version/bijlage-testscripts-2025-pgok-v0-5-4#Bijlagetestscripts(2025-PGOK-v0.5.4)-Usecase1.1Overstapservice:verzamelendocumentenoverPGO-koppelvlak) and [1.2](https://changemanagement.medmij.nl/pgo-koppelvlak-publicatie/Working-version/bijlage-testscripts-2025-pgok-v0-5-4#Bijlagetestscripts(2025-PGOK-v0.5.4)-Usecase1.2Overstapservice:beschikbaarstellendocumentenoverPGO-koppelvlak).
+- DocumentReference resource [_port-DocumentReference-XXX-Rijn.json](examples/_port-DocumentReference-XXX-Rijn.json) which represents a reference entry with metadata on a MedMij portability report available for retrieval.
+- Binary resource, containing the actual document [_port-Binary-XXX-Rijn.json](examples/_port-Binary-XXX-Rijn.json), a generated PDF/A file.
+
+Note that the two DocumentReference resources (and the referenced Binary resource) are used in both use case [1.1](https://changemanagement.medmij.nl/ontwerp-pgo-koppelvlak/actueel/bijlage-testscripts-2025-pgok#id-(v0.8)Bijlagetestscripts(2025-PGOK)-Usecase1.1Overstapservice:verzamelendocumentenoverPGO-koppelvlak) and [1.2](https://changemanagement.medmij.nl/ontwerp-pgo-koppelvlak/actueel/bijlage-testscripts-2025-pgok#id-(v0.8)Bijlagetestscripts(2025-PGOK)-Usecase1.2Overstapservice:beschikbaarstellendocumentenoverPGO-koppelvlak).
